@@ -1,5 +1,12 @@
 import React from "react";
 
-const DumbComponent = () => <div>I'm a dumb component</div>;
+/**
+ * Here is the description of the component with some **strong text**.
+ */
+const DumbComponent = () => (
+  <div>
+    I'm a dumb component with <strong>strong text</strong>
+  </div>
+);
 
 export default DumbComponent;
