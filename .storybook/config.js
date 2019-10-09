@@ -1,4 +1,6 @@
-import { configure } from '@storybook/react';
+import { configure, addParameters } from "@storybook/react";
+
+addParameters({ docs: { inlineStories: false } });
 
 // automatically import all files ending in *.stories.js
-configure(require.context('../src/stories', true, /\.stories\.js$/), module);
+configure(require.context("../src", true, /\.stories\.js$/), module);
