@@ -31,10 +31,10 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.2.3",
-    "@storybook/addon-docs": "^5.2.3",
-    "@storybook/addon-links": "^5.2.3",
-    "@storybook/addons": "^5.2.3",
-    "@storybook/react": "^5.2.3"
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18"
   }
 }
